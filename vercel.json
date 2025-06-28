@@ -19,7 +19,7 @@
       "destination": "index.cjs"
     }
   ]
-  "headers": [  // 新增跨域配置
+  "headers": [  
     {
       "source": "/(.*)",
       "headers": [
