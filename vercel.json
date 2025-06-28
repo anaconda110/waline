@@ -20,3 +20,15 @@
     }
   ]
 }
+  "headers": [  // 新增跨域配置
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://anaconda110.github.io/"
+        }
+      ]
+    }
+  ]
+}
